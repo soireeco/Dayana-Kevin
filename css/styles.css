@@ -10,12 +10,14 @@ header.hero {
     background-image: url('https://github.com/soireeco/galeria-de-imagenes/blob/main/headerdyk.jpg?raw=true');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    position: relative;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 .countdown {
     font-size: 54px;
     background: rgba(56,66,54,0.5);
@@ -189,4 +191,33 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 }
 .text5 {
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .text2, .text3, .text4 {
+        font-size: 22px;
+    }
+
+    .countdown {
+        font-size: 28px;
+        padding: 10px 20px;
+    }
+
+    .button_slide {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+
+    .timeline-list li img {
+        width: 100px;
+    }
+
+    .timeline-list li {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }

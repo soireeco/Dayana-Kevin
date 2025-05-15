@@ -196,28 +196,34 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 
 @media (max-width: 768px) {
     .text2, .text3, .text4 {
-        font-size: 22px;
+        font-size: 17px;
+		  line-height: 1.4;
     }
 
     .countdown {
-        font-size: 28px;
-        padding: 10px 20px;
+        font-size: 20px;
+        padding: 7px 15px;
     }
 
     .button_slide {
-        font-size: 18px;
-        padding: 12px 24px;
+        font-size: 14px;
+        padding: 9px 15px;
     }
 
     .timeline-list li img {
-        width: 100px;
+        width: 70px;
     }
 
     .timeline-list li {
-        font-size: 20px;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+	
+	 section {
+        padding: 16px 12px;
     }
 
     footer {
-        font-size: 12px;
+        font-size: 10px;
     }
 }

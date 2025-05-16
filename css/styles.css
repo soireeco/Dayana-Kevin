@@ -153,9 +153,9 @@ footer {
     background-color: transparent;
     border: 5px solid #B99B69;
     border-radius: 70px;
-    padding: 10px 20px;
+    padding: 7px 20px;
     width: fit-content;
-    margin: 20px auto;
+    margin: 10px auto;
     cursor: pointer;
 }
 
@@ -227,27 +227,17 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
         font-size: 10px;
     }
 	
-	 .custom-audio-player {
-        padding: 6px 14px;
-        border-width: 3px;
-        border-radius: 50px;
-		 max-width: 160px;
-    }
-
+	
+	
     #waveform span {
         width: 3px;
         margin: 0 1px;
     }
 	
 	 #waveform {
-        width: 140px; 
+        width: 100px !important;
+        height: auto;
     }
-
-
-	#customAudioPlayer {
-		max-width: 160px;
-	}
-
 
 }
 

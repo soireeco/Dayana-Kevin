@@ -243,5 +243,11 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
         width: 140px; 
     }
 
+
+	#customAudioPlayer {
+		max-width: 160px;
+	}
+
+
 }
 

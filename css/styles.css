@@ -226,4 +226,16 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
     footer {
         font-size: 10px;
     }
+	
+	 .custom-audio-player {
+        padding: 6px 14px;
+        border-width: 3px;
+        border-radius: 50px;
+    }
+
+    #waveform span {
+        width: 3px;
+        margin: 0 1px;
+    }
+
 }
